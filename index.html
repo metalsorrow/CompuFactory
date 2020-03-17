@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://kit.fontawesome.com/d774cc4f9c.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>CompuFactory</title>
+</head>
+
+<body class="bg-light">
+
+  <script>
+    $(document).ready(function () {
+      $(".animated-pulse").addClass("animated pulse")
+      console.log("run")
+    });
+    
+    $(document).ready(function () {
+      $(".animated-important").addClass("animated pulse")
+      console.log("run")
+    });
+
+  </script>
+  <script>
+    function addParent() {
+      document.querySelector()
+
+    }
+  </script>
+
+
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+      <a class="navbar-brand rounded p-0" style="width: 4rem;" href="/">
+        <img class="navbar-brand m-0 p-0 rounded" style="width: 100%;" src="./src/Compu Factory.png" alt="logo">
+      </a>
+      <button class="navbar-toggler bg-success" type="b utton" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarText">
+        <ul class="navbar-nav mr-auto w-100">
+          <li class="nav-item active  ">
+            <a class="nav-link text-white" href="/">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-warning " href="productos.html">Productos <i class="fas fa-store-alt"></i></a>
+          </li>
+          <li class="d-flex align-items-center ml-auto">
+              <i class="far fa-user pr-4" style="font-size: 1.4rem; font-weight: bold; cursor: pointer;"
+                data-toggle="modal" data-target="#login"></i>
+              <i class="fas fa-shopping-cart " style="font-size: 1.4rem;font-weight: bold; cursor: pointer;"
+                data-toggle="modal" data-target="#cart"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="banner">
+    <div class="container">
+      <div class="row banner my-2">
+        <div class="col">
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="8000">
+                <img src="src/carousel/1.png" class="d-block w-100" alt="1">
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img src="src/carousel/2.png" class="d-block w-100" alt="2">
+              </div>
+              <div class="carousel-item">
+                <img src="src/carousel/3.png" class="d-block w-100" alt="3">
+              </div>
+              <div class="carousel-item">
+                <img src="src/carousel/4.png" class="d-block w-100" alt="4">
+              </div>
+              <div class="carousel-item">
+                <img src="src/carousel/5.png" class="d-block w-100" alt="5">
+              </div>
+              <div class="carousel-item">
+                <img src="src/carousel/6.png" class="d-block w-100" alt="6">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="main-title">
+      <div class="jumbotron  text-center jumbotron-fluid my-2 mx-auto bg-success rounded shadow-sm ">
+        <h1 class="display-4 font-weight-bolder animated-pulse">Venta de Bodega <span class="badge badge-warning">OFERTAS!</span>
+        </h1>
+        <p class="lead">Las mejores ofertas, todo el año, en un mismo lugar.</p>
+        <div class="row"></div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid main-content">
+      <div class="row">
+        <div class="col-md-12 col-lg-5 col-xl-4 col-12 filter mt-5 p-4 ">
+          <h2 class="mb-5">Ultimo en tecnologia! <span class="badge badge-success"><i class="fab fa-hotjar"></i></span>
+          </h2>
+          <table class="table border rounded ">
+            <thead>
+              <tr>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio$</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Informacion!</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Lenovo IdeaPad L340 (81LK0009CL)</th>
+                <td>$389.990</td>
+                <td>Notebook</td>
+                <td class=" text-center">
+                  <button type="button" class="btn btn-warning "> <i class="fas fa-search"></i> </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Acer Aspire ES1-131-C5GD</th>
+                <td>$589.990</td>
+                <td>Notebook</td>
+                <td class=" text-center">
+                  <button type="button" class="btn btn-warning "> <i class="fas fa-search"></i> </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Ram ddr4 1800rpm 2024GB</th>
+                <td>$27.990</td>
+                <td>Hardware</td>
+                <td class=" text-center">
+                  <button type="button" class="btn btn-warning "> <i class="fas fa-search"></i> </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Intel i7 pro Xr2761f 8000Ghz</th>
+                <td>$490.990</td>
+                <td>Hardware</td>
+                <td class=" text-center">
+                  <button type="button" class="btn btn-warning "> <i class="fas fa-search"></i> </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col products">
+          <div class="container-fluid">
+        
+            <!-- Mas vistos -->
+            <div class="row">
+              <div class="col my-4">
+                <h2>Lo mas visto en Compu Factory <span class="badge badge-success"><i class="fas fa-location-arrow"></i></span>
+                </h2>
+              </div>
+            </div>
+        
+            <div class="row bg-white border rounded py-3">
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/notebook/1.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS TUF FX505DY-BQ002T</h5>
+                    <h4 class="card-text text font-weight-bold text-danger">$ 479.990 </h4>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>Procesador:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">AMD Ryzen 5 3550H (Quad-core / 2100 MHz - 3700
+                                  MHz)</small></p>
+                            </ul>
+                          </li>
+                          <li>RAM:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">8GB DDR4 (2400 MHz)</small></p>
+                            </ul>
+                          </li>
+                          <li>Pantalla:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">LED 15.6" (1920x1080)</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/piezas/5.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">MSI N730-2GD3V3</h5>
+                    <h4 class="card-text text font-weight-bold text-danger">$ 68.900</h4>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>GPU:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">NVIDIA GeForce GT 730 (128 bits DDR3)</small></p>
+                            </ul>
+                          </li>
+                          <li>Memoria:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">2 GB DDR3 (128 bit)</small></p>
+                            </ul>
+                          </li>
+                          <li>Frecuencias:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">700 MHz core / 900 MHz memorias</small></p>
+                            </ul>
+                          </li>
+                          <li>Bus:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">PCI Express 2.0 x16</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/piezas/6.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS GT1030-2G-CSM (90YV0AT1-M0NA00)</h5>
+                    <h4 class="card-text text font-weight-bold text-danger">$ 99.900</h4>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>GPU:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">NVIDIA GeForce GT 1030</small></p>
+                            </ul>
+                          </li>
+                          <li>Memoria:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">2 GB GDDR5 (64 bit)</small></p>
+                            </ul>
+                          </li>
+                          <li>Frecuencias:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">1228 MHz core / 1502 MHz memorias</small></p>
+                            </ul>
+                          </li>
+                          <li>Bus:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">PCI Express 3.0 x16</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+        
+            <!-- Ofertas -->
+            <div class="row">
+              <div class="col my-4">
+                <h2>Ofertas del Dia <span class="badge badge-success"><i class="fas fa-wallet"></i></span>
+                </h2>
+              </div>
+            </div>
+        
+            <div class="row bg-white border rounded py-3">
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/notebook/3.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS TUF FX505DY-BQ002T</h5>
+                    <h4 class="card-text text font-weight-bold text-danger"> $299.990</h4>
+                    <h6 class="mb-3"> <span style="text-decoration: line-through;">$ 499.900</span></h6>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>Procesador:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">AMD Ryzen 5 3550H (Quad-core / 2100 MHz - 3700
+                                  MHz)</small></p>
+                            </ul>
+                          </li>
+                          <li>RAM:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">8GB DDR4 (2400 MHz)</small></p>
+                            </ul>
+                          </li>
+                          <li>Pantalla:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">LED 15.6" (1920x1080)</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/piezas/3.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">MSI N730-2GD3V3</h5>
+                    <h4 class="card-text text font-weight-bold text-danger"> $49.990</h4>
+                    <h6 class="mb-3"> <span style="text-decoration: line-through;">$ 68.900</span></h6>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>GPU:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">NVIDIA GeForce GT 730 (128 bits DDR3)</small></p>
+                            </ul>
+                          </li>
+                          <li>Memoria:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">2 GB DDR3 (128 bit)</small></p>
+                            </ul>
+                          </li>
+                          <li>Frecuencias:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">700 MHz core / 900 MHz memorias</small></p>
+                            </ul>
+                          </li>
+                          <li>Bus:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">PCI Express 2.0 x16</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row ">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6  col-xl-4">
+                <div class="card h-100">
+                  <img src="src/piezas/6.png" class="card-img" alt="1">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS GT1030-2G-CSM (90YV0AT1-M0NA00)</h5>
+                    <h4 class="card-text text font-weight-bold text-danger"> $59.990</h4>
+                    <h6 class="mb-3"> <span style="text-decoration: line-through;">$ 98.900</span></h6>
+        
+                    <div class="row" style="line-height: 1rem;">
+                      <div class="col">
+                        <ul>
+                          <li>GPU:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">NVIDIA GeForce GT 1030</small></p>
+                            </ul>
+                          </li>
+                          <li>Memoria:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">2 GB GDDR5 (64 bit)</small></p>
+                            </ul>
+                          </li>
+                          <li>Frecuencias:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">1228 MHz core / 1502 MHz memorias</small></p>
+                            </ul>
+                          </li>
+                          <li>Bus:
+                            <ul>
+                              <p class="card-text"><small class="text-muted">PCI Express 3.0 x16</small></p>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-warning w-100"> Agregar <i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-success w-100">Comprar <i
+                            class="fas fa-comment-dollar"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="bg-dark text-white container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 col-md-4 p-4">
+        <h3>Acerca de CompuFactory</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p>
+          Nuestra misión es ayudar a los consumidores a escoger el producto perfecto para sus necesidades y presupuesto.
+        </p>
+        <a href="#">Términos y condiciones</a>
+      </div>
+      <div class="col-12 col-md-4 p-4">
+        <h3>Apariciones en los medios</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p>"Ofrece el llamativo servicio de regatear y encontrar el precio más conveniente de notebooks"</p>
+        <p>"Una cotización podía tomar horas buscando y ahora se reduce a minutos"</p>
+      </div> 
+      <div class="col-12 col-md-4 p-4">
+        <h3>Contacto</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p><span>Direccion:</span> calle falsa - 123</p>
+        <p><span>Fono:</span> +569 92783615</p>
+        <p><span>Correo:</span> CompuFactory@tienda.cl</p>
+        <a href="#">Contáctanos vía web</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col footer-copyright text-center py-3">
+        <a href="https://mdbootstrap.com/"> CompuFactory.com</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- Modals container -->
+  <div class="modals-container">
+    <!-- login -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginlabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SignIn / SignUp</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">No compartas tu informacion con otros.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">Ingresar</button>
+                <button type="button" class="btn btn-light"><i class="fas fa-plus-circle"></i> SignUp</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cart -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartlabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">My Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-products">
+              <!-- TODO: Productos ingresados -->
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-light">Cancelar</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal">Procesar venta <i
+                class="fas fa-money-check-alt"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

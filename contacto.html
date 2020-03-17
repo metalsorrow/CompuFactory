@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://kit.fontawesome.com/d774cc4f9c.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <title>CompuFactory</title>
+</head>
+
+<body class="bg-light">
+
+  <script>
+
+  </script>
+
+
+<div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+    <a class="navbar-brand rounded p-0" style="width: 4rem;" href="/">
+      <img class="navbar-brand m-0 p-0 rounded" style="width: 100%;" src="./src/Compu Factory.png" alt="logo">
+    </a>
+    <button class="navbar-toggler bg-success" type="b utton" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarText">
+      <ul class="navbar-nav mr-auto w-100">
+        <li class="nav-item active  ">
+          <a class="nav-link text-white" href="/">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-warning " href="productos.html">Productos <i class="fas fa-store-alt"></i></a>
+        </li>
+        <li class="d-flex align-items-center ml-auto">
+            <i class="far fa-user pr-4" style="font-size: 1.4rem; font-weight: bold; cursor: pointer;"
+              data-toggle="modal" data-target="#login"></i>
+            <i class="fas fa-shopping-cart " style="font-size: 1.4rem;font-weight: bold; cursor: pointer;"
+              data-toggle="modal" data-target="#cart"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+  <div class="jumbotron mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="display-4 ">Contactanos</h1>
+          <p class="lead">Si quiere hacer alguna consulta o cotizacion mas personalizada, no dude en contactarnos
+            mediante cualquiera de los metodos presentados a continuacion. </p>
+          <ul>
+            <li><span>Direccion:</span> calle falsa - 123</li>
+            <li><span>Fono:</span> +569 92783615</li>
+            <li><span>Correo:</span> CompuFactory@tienda.cl</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Nuestros locales</h2>
+          <ul>
+            <li>Providencia - lussi ferre #546</li>
+            <li>Estacion central - Centro comercial Caracoles #1189, Primer piso</li>
+          </ul>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.9350475110823!2d-70.61648378428603!3d-33.42493770359052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfbd8a4809ab%3A0x925aac9e7a0f439e!2sMetro%20Pedro%20De%20Valdivia!5e0!3m2!1ses-419!2scl!4v1584411038198!5m2!1ses-419!2scl"
+            style="width: 100%; height: 60%;" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="col-12 mt-5">
+          <h4 class="text-center">Redes Sociales:
+
+          </h4>
+          <div class=" d-flex justify-content-around " style="font-size: 3rem;">
+            <a href="#"><i class="fab fa-facebook text-dark"></i></a>
+            <a href="#"><i class="fab fa-twitter-square text-dark"></i></a>
+            <a href="#"><i class="fab fa-instagram-square text-dark"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <form class="form-horizontal container">
+    <fieldset>
+
+      <!-- Form Name -->
+      <legend>Correo de Contacto</legend>
+
+      <div class="row">
+        <!-- Text input-->
+        <div class="form-group col-md-6">
+          <label class=" control-label font-weight-bolder" for="nombre">Nombre</label>
+          <div class="">
+            <input id="nombre" name="nombre" type="text" placeholder="Ingresar..." class="form-control input-md"
+              required="">
+
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group col-md-6">
+          <label class=" control-label font-weight-bolder" for="correo">Correo:</label>
+          <div class="">
+            <input id="correo" name="correo" type="text" placeholder="ingresar..." class="form-control input-md"
+              required="">
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <!-- Textarea -->
+        <div class="form-group col-md-6 col-12">
+          <label class=" control-label font-weight-bolder" for="mensaje">Mensaje:</label>
+          <div class="">
+            <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Hola!...">
+      </textarea>
+          </div>
+        </div>
+        <!-- Multiple Radios -->
+        <div class="form-group col-md-6 col-12">
+          <label class=" control-label font-weight-bolder" for="motivo">Motivo:</label>
+          <div class="row d-flex justify-content-around">
+            <div class="radio">
+              <label for="motivo-0">
+                <input type="radio" name="motivo" id="motivo-0" value="1" checked="checked">
+                Consulta
+              </label>
+            </div>
+            <div class="radio">
+              <label for="motivo-1">
+                <input type="radio" name="motivo" id="motivo-1" value="2">
+                Reclamo
+              </label>
+            </div>
+            <div class="radio">
+              <label for="motivo-2">
+                <input type="radio" name="motivo" id="motivo-2" value="3">
+                Ayuda
+              </label>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-around">
+            <div class="radio">
+              <label for="motivo-3">
+                <input type="radio" name="motivo" id="motivo-3" value="4">
+                Cotizacion
+              </label>
+            </div>
+            <div class="radio">
+              <label for="motivo-4">
+                <input type="radio" name="motivo" id="motivo-4" value="5">
+                Empresa
+              </label>
+            </div>
+            <div class="radio">
+              <label for="motivo-5">
+                <input type="radio" name="motivo" id="motivo-5" value="6">
+                Otro
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Button -->
+      <div class="form-group col-md-6 col-12">
+        <label class=" control-label" for="formContacto"></label>
+        <div class="">
+          <button id="formContacto" name="formContacto" class="btn btn-success">Enviar</button>
+        </div>
+      </div>
+
+    </fieldset>
+  </form>
+
+
+
+
+
+  <footer class="bg-dark text-white container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 col-md-4 p-4">
+        <h3>Acerca de CompuFactory</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p>
+          Nuestra misión es ayudar a los consumidores a escoger el producto perfecto para sus necesidades y presupuesto.
+        </p>
+        <a href="#">Términos y condiciones</a>
+      </div>
+      <div class="col-12 col-md-4 p-4">
+        <h3>Apariciones en los medios</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p>"Ofrece el llamativo servicio de regatear y encontrar el precio más conveniente de notebooks"</p>
+        <p>"Una cotización podía tomar horas buscando y ahora se reduce a minutos"</p>
+      </div>
+      <div class="col-12 col-md-4 p-4">
+        <h3>Contacto</h3>
+        <hr style="border-bottom: 1px solid grey;">
+        <p><span>Direccion:</span> calle falsa - 123</p>
+        <p><span>Fono:</span> +569 92783615</p>
+        <p><span>Correo:</span> CompuFactory@tienda.cl</p>
+        <a href="#">Contáctanos vía web</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col footer-copyright text-center py-3">
+        <a href="https://mdbootstrap.com/"> CompuFactory.com</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- Modals container -->
+  <div class="modals-container">
+    <!-- login -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginlabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SignIn / SignUp</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">No compartas tu informacion con otros.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">Ingresar</button>
+                <button type="button" class="btn btn-light"><i class="fas fa-plus-circle"></i> SignUp</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cart -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartlabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">My Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-products">
+              <!-- TODO: Productos ingresados -->
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-light">Cancelar</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal">Procesar venta <i
+                class="fas fa-money-check-alt"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
